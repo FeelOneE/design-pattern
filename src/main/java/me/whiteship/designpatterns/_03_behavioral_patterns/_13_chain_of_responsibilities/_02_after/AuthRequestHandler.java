@@ -10,7 +10,7 @@ public class AuthRequestHandler extends RequestHandler {
 
     @Override
     public void handle(Request request) {
-        System.out.println("인증이 되었는가?");
-        super.handle(request);
+        System.out.println("인증이 되었는가?"); // 로직
+        super.handle(request); // 다음 핸들러 지정
     }
 }

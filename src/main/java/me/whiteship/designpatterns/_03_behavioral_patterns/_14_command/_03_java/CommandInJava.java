@@ -8,6 +8,8 @@ import java.util.concurrent.Executors;
 
 public class CommandInJava {
 
+    // DB에 10만건의 데이터 멀티스레드로 insert하는데 다른 테이블이 락걸림
+    // ?? 어떻게 해결하는게 나을까?
     public static void main(String[] args) {
         Light light = new Light();
         Game game = new Game();
